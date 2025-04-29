@@ -1,0 +1,96 @@
+section{
+    margin: 20vh 0;
+}
+
+.item img{
+    width: 20vw;
+}
+.navbar-brand{
+    font-weight: 700 !important;
+}
+.owl-carousel .item img{
+    height: 40vh;
+}
+.section-heading{
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.owl-carousel .item img{
+    height: 40vh;
+}
+.banner .banner-head{
+    background-color: aliceblue !important;
+    color: #111;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.banner .banner-head h1{
+    color: #c4c1c1 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem;
+}
+.feature-items{
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.feature-items .card{
+    width: 45rem;
+    font-size: 1.2rem;
+}
+.feature-items .img{
+    width: 35vw;
+    height: 65vh;
+    border-radius: 20px;
+}
+.cart .cart-header{
+    background: url(/static/img/slider-bg.jpg)
+    fixed-center no-repeat;
+    background-size: cover;
+    height: 55vh;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+}
+.cart{
+    margin-top: 0;
+}
+.cart .cart-img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.card img{
+    width: 100% !important;
+    height: 40vh !important;
+}
+.card{
+    position: relative;
+}
+.card .card-btns{
+    opacity: 0;
+    transform: translateX(50vh);
+    position: absolute;
+    top: 32vh;
+    left: 1vh;
+}
+
+.card:hover .card-btns{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all .5s ease-in;
+}
+@media (max-width: 576px) {
+    .cart .cart-header{
+        background-size: 150vw 90vh;
+    }
+}

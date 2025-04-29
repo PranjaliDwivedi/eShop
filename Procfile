@@ -1,0 +1,1 @@
+echo "web: gunicorn eshop.wsgi" > Procfile
